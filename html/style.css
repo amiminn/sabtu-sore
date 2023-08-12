@@ -1,0 +1,65 @@
+h1 {
+  color: blue;
+  font-style: italic;
+}
+
+#color1 {
+  color: brown;
+}
+
+#color2 {
+  color: #737ca1;
+}
+
+#color3 {
+  color: rgb(154, 124, 8);
+  /* color: rgba(154, 124, 8, 0); */
+}
+
+.flex {
+  display: flex;
+}
+
+.kotak {
+  height: 100px;
+  width: 100px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-red {
+  background-color: rgb(255, 51, 51);
+}
+
+.bg-orange {
+  background-color: #ff8000;
+}
+
+.bg-img {
+  background-image: url("/img_bg.jpg"); /* 1 */
+  background-size: cover;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+.m {
+  margin: 30px;
+}
+
+.p {
+  padding: 30px;
+}
+
+.btn {
+  padding: 4px 16px;
+  color: white;
+  background-color: #be123c;
+  border-radius: 3px;
+  width: max-content;
+}
