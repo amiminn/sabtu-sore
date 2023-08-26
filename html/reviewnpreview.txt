@@ -7,5 +7,25 @@ ilham.asdhajscd.com
 
 hover
 border
+border-radius
+color
+bg-color
 
 component
+
+
+tailwind
+
+-text (color text)
+-bg (bg color)
+-p (padding)
+-m (margin)
+-w (widht)
+-h (heigth)
+-border (border)
+-rounded (border-radius)
+-hover (hover)
+
+style heading font
+
+h-20 w-20 
