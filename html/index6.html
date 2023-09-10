@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="p-1">
+    <!-- responsive -->
+    <!-- grid 1 parent -->
+    <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-2">
+      <div class="bg-blue-400 py-20 rounded text-white px-3">box 1</div>
+      <div class="bg-blue-400 lg:bg-rose-400 py-20 rounded text-white px-3">
+        box 2
+      </div>
+      <div class="bg-blue-400 lg:col-span-2 py-20 rounded text-white px-3">
+        box 3
+      </div>
+      <div class="bg-blue-400 py-20 rounded text-white px-3">box 4</div>
+      <div class="bg-blue-400 py-20 lg:hidden rounded text-white px-3">
+        box 5
+      </div>
+      <div>
+        <div class="bg-blue-400 py-20 rounded text-white px-3">box 6</div>
+      </div>
+      <div class="bg-rose-400 lg:bg-blue-400 py-20 rounded text-white px-3">
+        box 7
+      </div>
+      <!-- grid 2 child-->
+      <div class="grid grid-cols-2 md:lg:grid-cols-1 gap-2">
+        <div class="bg-blue-400 py-20 rounded text-white px-3">box 8</div>
+        <div class="bg-blue-400 py-20 rounded text-white px-3">box 9</div>
+      </div>
+    </div>
+  </body>
+</html>

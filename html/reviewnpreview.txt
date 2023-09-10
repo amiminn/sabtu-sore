@@ -29,3 +29,16 @@ tailwind
 style heading font
 
 h-20 w-20 
+
+step tailwind
+- bg (backgroud)
+- p (padding) 
+- m (margin)
+- rounded (ujung tumpul)
+- w (widht) - lebar div
+- h (heigth) - tinggi div
+- text (color) warna text
+
+// flexbox grid
+// responsive
+// gallery 
